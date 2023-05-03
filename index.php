@@ -13,6 +13,9 @@ require_once __DIR__ . '/vendor/bramus/router/src/Bramus/Router/Router.php';
     $router->all('/', function () {
         require('Public/Views/Home.php');
     });
+    $router->all('/MameIbra', function () {
+        require('Public/Views/Home.php');
+    });
     // Custom 404 Handler
     $router->set404(function () {
         header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');

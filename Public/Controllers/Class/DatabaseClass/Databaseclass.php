@@ -14,6 +14,8 @@ public $mergeArray;
 
 
 
+
+
 public function __construct($bdd)
 {
     return  $this->bdd=$bdd;

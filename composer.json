@@ -3,7 +3,8 @@
     "autoload": {
         "psr-4": {
             "Dell\\BasecodeM\\": "src/",
-            "App\\Database\\":"Public/Controllers/Class/DatabaseClass/"
+            "App\\Database\\":"Public/Controllers/Class/DatabaseClass/",
+            "App\\User\\":"Public/Controllers/Class/UserClass/"
         }
     },
     "authors": [
