@@ -9,5 +9,6 @@ return array(
     'TeamTNT\\TNTSearch\\' => array($vendorDir . '/teamtnt/tntsearch/src'),
     'Dell\\BasecodeM\\' => array($baseDir . '/src'),
     'App\\User\\' => array($baseDir . '/Public/Controllers/Class/UserClass'),
+    'App\\Html\\' => array($baseDir . '/Public/Controllers/Class/FormClass'),
     'App\\Database\\' => array($baseDir . '/Public/Controllers/Class/DatabaseClass'),
 );

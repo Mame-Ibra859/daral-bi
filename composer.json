@@ -4,7 +4,8 @@
         "psr-4": {
             "Dell\\BasecodeM\\": "src/",
             "App\\Database\\":"Public/Controllers/Class/DatabaseClass/",
-            "App\\User\\":"Public/Controllers/Class/UserClass/"
+            "App\\Auth\\":"Public/Controllers/Class/UserClass/",
+            "App\\Html\\":"Public/Controllers/Class/FormClass/"
         }
     },
     "authors": [

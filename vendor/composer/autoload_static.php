@@ -22,6 +22,7 @@ class ComposerStaticInita2718c0a22cadcb9266c10af441d79b1
         'A' => 
         array (
             'App\\User\\' => 9,
+            'App\\Html\\' => 9,
             'App\\Database\\' => 13,
         ),
     );
@@ -38,6 +39,10 @@ class ComposerStaticInita2718c0a22cadcb9266c10af441d79b1
         'App\\User\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Public/Controllers/Class/UserClass',
+        ),
+        'App\\Html\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Public/Controllers/Class/FormClass',
         ),
         'App\\Database\\' => 
         array (

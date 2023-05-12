@@ -1,10 +1,10 @@
 <?php
 
-use App\User\UserClass;
 
+use App\Html\Form;
 require(__DIR__.DIRECTORY_SEPARATOR.'Require.php');
 
-$userClass=new UserClass($bdd);
-$userClass->VerifyUser('macmac030998@gmail.com','123');
+$Form=new Form();
 require(__DIR__.DS.'Body'.DS.'Header.php');
+echo($Form->Input('checkbox',['name'=>'Email']));
 ?>
